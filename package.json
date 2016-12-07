@@ -1,0 +1,31 @@
+{
+  "name": "liberate",
+  "version": "1.0.0",
+  "description": "An electron release tool",
+  "main": "liberate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "liberate": "./liberate.js"
+  },
+  "keywords": [
+    "release",
+    "launch",
+    "tool",
+    "electron",
+    "github"
+  ],
+  "author": "Matthew Elphick",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^1.2.0",
+    "dotenv": "^2.0.0",
+    "electron-packager": "^8.3.0",
+    "form-data": "^2.1.2",
+    "github": "^7.0.1",
+    "meow": "^3.7.0",
+    "node-targz": "^0.2.0",
+    "request": "^2.79.0"
+  }
+}
