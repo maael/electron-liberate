@@ -1,5 +1,5 @@
 {
-  "name": "liberate",
+  "name": "electron-liberate",
   "version": "1.0.0",
   "description": "An electron release tool",
   "main": "liberate.js",
