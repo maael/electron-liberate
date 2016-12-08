@@ -12,8 +12,16 @@ It does the following, in this order -
 6. Uploads `.tar.gz` files and adds them to the created release
 
 ## Install
-:rotating_light: Todo :rotating_light:
 `npm install -g electron-liberate`
+
+## Setup
+A `.liberate` config file will need to be created for prjects which will use electron-liberate. This config must be -
+```
+GITHUB_USER=<user>
+GITHUB_REPO=<repo name>
+GITHUB_TOKEN=<personal access token>
+```
+with the right information filled out.
 
 ## Usage
 
